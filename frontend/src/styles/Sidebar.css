@@ -1,0 +1,43 @@
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  background: rgb(15, 23, 42);
+  overflow-y: auto;
+  transition: left 0.3s ease;
+  z-index: 99;
+  border-right: 1px solid rgb(30, 41, 59);
+}
+
+.sidebarHeader {
+  padding: 16px 20px 8px;
+  border-bottom: 1px solid rgb(30, 41, 59);
+}
+
+.sidebarTitle {
+  font-size: 11px;
+  color: rgb(71, 85, 105);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 16px;
+  width: 20px;
+  text-align: center;
+}

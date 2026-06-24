@@ -1,0 +1,75 @@
+.navbar {
+  height: 60px;
+  background: rgb(30, 58, 95);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.menuBtn {
+  background: none;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: rgb(96, 165, 250);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgb(37, 99, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.userName {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.userRole {
+  font-size: 11px;
+  color: rgb(147, 197, 253);
+}
+
+.logoutBtn {
+  padding: 7px 16px;
+  background: rgb(220, 38, 38);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.title { font-size: 24px; font-weight: 800; color: rgb(15, 23, 42); }
+.sub { font-size: 14px; color: rgb(100, 116, 139); margin-top: 4px; }
+
+.addBtn { padding: 10px 20px; background: rgb(37, 99, 235); color: rgb(255, 255, 255); border-radius: 8px; font-weight: 600; font-size: 14px; border: none; cursor: pointer; }
+.msg { background: rgb(240, 253, 244); border: 1px solid rgb(134, 239, 172); color: rgb(22, 163, 74); padding: 10px 16px; border-radius: 8px; margin-bottom: 16px; font-size: 14px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.card { background: rgb(255, 255, 255); border-radius: 12px; padding: 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); display: flex; flex-direction: column; gap: 12px; }
+.cardIcon { font-size: 36px; }
+.cardBody {}
+.cardTitle { font-size: 16px; font-weight: 700; color: rgb(15, 23, 42); }
+.cardSub { font-size: 13px; color: rgb(100, 116, 139); margin-top: 4px; }
+.cardActions { display: flex; gap: 8px; margin-top: 4px; }
+.editBtn { padding: 6px 14px; background: rgb(37, 99, 235); color: rgb(255, 255, 255); border-radius: 6px; font-size: 13px; border: none; cursor: pointer; }
+.delBtn { padding: 6px 14px; background: rgb(220, 38, 38); color: rgb(255, 255, 255); border-radius: 6px; font-size: 13px; border: none; cursor: pointer; }
+
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 200; }
+.modal { background: rgb(255, 255, 255); border-radius: 14px; padding: 32px; width: 400px; box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
+.modalTitle { font-size: 18px; font-weight: 700; margin-bottom: 20px; }
+.field { margin-bottom: 14px; }
+.label { display: block; font-size: 13px; font-weight: 600; color: rgb(55, 65, 81); margin-bottom: 5px; }
+.input { width: 100%; padding: 10px 14px; border: 1.5px solid rgb(226, 232, 240); border-radius: 8px; font-size: 14px; }
+.modalBtns { display: flex; gap: 10px; margin-top: 20px; }
+.saveBtn { flex: 1; padding: 10px; background: rgb(37, 99, 235); color: rgb(255, 255, 255); border-radius: 8px; font-weight: 600; border: none; cursor: pointer; }
+.cancelBtn { flex: 1; padding: 10px; background: rgb(241, 245, 249); color: rgb(55, 65, 81); border-radius: 8px; font-weight: 600; border: none; cursor: pointer; }

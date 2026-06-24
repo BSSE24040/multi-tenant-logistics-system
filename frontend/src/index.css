@@ -1,0 +1,43 @@
+:root {
+  --primary: rgb(37, 99, 235);
+  --primary-dark: rgb(29, 78, 216);
+  --secondary: rgb(100, 116, 139);
+  --success: rgb(22, 163, 74);
+  --danger: rgb(220, 38, 38);
+  --warning: rgb(217, 119, 6);
+  --bg: rgb(241, 245, 249);
+  --card: rgb(255, 255, 255);
+  --text: rgb(15, 23, 42);
+  --text-secondary: rgb(71, 85, 105);
+  --border: rgb(226, 232, 240);
+  --radius: 10px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input, select, textarea {
+  outline: none;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

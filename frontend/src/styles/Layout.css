@@ -1,0 +1,7 @@
+.layoutContent {
+  margin-top: 60px;
+  padding: 28px;
+  min-height: calc(100vh - 60px);
+  background: rgb(241, 245, 249);
+  transition: margin-left 0.3s ease;
+}
